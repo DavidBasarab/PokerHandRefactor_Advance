@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace PokerHands
 {
-    public class HandRanker
+    public class FiveCardPokerHandRanking
     {
-        public int RankHands(IList<C> o, IList<C> t)
+        public int RankHands(IList<Card> o, IList<Card> t)
         {
             var ovov = o.GroupBy(i => i.CardValue).Select(g => new
                                                                             {

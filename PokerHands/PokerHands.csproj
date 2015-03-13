@@ -41,7 +41,8 @@
   <ItemGroup>
     <Compile Include="CardValue.cs" />
     <Compile Include="Card.cs" />
-    <Compile Include="HandRanker.cs" />
+    <Compile Include="FiveCardPokerHandRanking.cs" />
+    <Compile Include="Hand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Suit.cs" />
   </ItemGroup>
